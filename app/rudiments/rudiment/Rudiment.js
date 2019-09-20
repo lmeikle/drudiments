@@ -7,12 +7,17 @@ const GridContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
 `;
 
 const Container = styled.div`
   position: relative;
   height: 6em;
   width: 25em;
+  margin-bottom: 1em;
 `;
 
 const Line = styled.div`

@@ -9,7 +9,7 @@ import 'sanitize.css/sanitize.css';
 // Load the favicon and the .htaccess file
 import '!file-loader?name=[name].[ext]!./images/favicon.ico';
 import 'file-loader?name=.htaccess!./.htaccess';
-import Rudiment from './rudiment/Rudiment';
+import RudimentsPage from './rudiments/RudimentsPage';
 import GlobalStyle from './global-styles'; // eslint-disable-line import/extensions
 
 // Observe loading of Open Sans (to remove open sans, remove the <link> tag in
@@ -25,7 +25,7 @@ const MOUNT_NODE = document.getElementById('app');
 
 ReactDOM.render(
   <>
-    <Rudiment />
+    <RudimentsPage />
     <GlobalStyle />
   </>,
   MOUNT_NODE,
